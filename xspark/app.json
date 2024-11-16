@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "farmpe",
+    "slug": "farmpe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.xspark",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiYmhhcmF0c2hlb3JhbiIsImEiOiJjbHNyNzlnMjgwMHloMnFwZzJvMXJ1bjdrIn0.wA481zzORnQyL-iocMy5dw"
+        }
+      ],
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "ac0aeda8-afeb-4ff8-896a-5c91ee9f6291"
+      }
+    }
+  }
+}

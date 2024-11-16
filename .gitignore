@@ -1,0 +1,7 @@
+server/node_modules
+server/.env
+xspark/.expo
+xspark/node_modules
+xspark/.env
+xspark/android
+xspark/eas.json
